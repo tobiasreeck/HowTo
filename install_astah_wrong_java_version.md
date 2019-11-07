@@ -8,4 +8,8 @@ Once you finished downloading and installing Astah and you try launching it. If 
 #### Downloading and Switching your java-version
 If you dont have the correct Java-version, you might get a message like this:
 ![text](/home/tobi/Privat/GitHub/HowTo/figs/Astah_Java_Version.png)
-In that case, you're gonna need to install an older version of java. I decided to install Java 8, which is the version, Astah seems to require. You can download it [here](https://www.java.com/en/download/linux_manual.jsp). I chose the Linux x64 Option for my Ubunut 19.04. machine. Once downloaded, i followed [these](http://astah.net/qa/setup/linux) instructions.
+In that case, you're gonna need to install an older version of java. I decided to install Java 8, which is the version, Astah seems to require. You can download it [here](https://www.java.com/en/download/linux_manual.jsp). I chose the Linux x64 Option for my Ubunut 19.04. machine. Once downloaded, i followed [these](http://astah.net/qa/setup/linux) instructions, which are:
+
+First you have to decompress the downloaded file. In my case, the file name was jre-8u231-linux-x64.tar.gz, so i did:
+
+`$ tar -xvf jre-8u231-linux-x64.tar.gz`
