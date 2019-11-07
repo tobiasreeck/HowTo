@@ -34,7 +34,6 @@ sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1
 Sources:
 
 http://astah.net/download
-
 http://astah.net/student/thank-you
 
 https://www.java.com/en/download/linux_manual.jsp
