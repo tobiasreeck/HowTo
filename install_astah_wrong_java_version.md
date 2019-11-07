@@ -22,7 +22,7 @@ That created a folder, named "jre1.8.0_231". Now you have to move the folder to 
 
 `sudo mv ./jre1.8.0_231 /usr/lib/jvm/jdk1.8.0`
 
-After that, you need to run the following 3 commands. Dont worry if one or more throw an error/warning. They did, when i entered them, but it worked nontheless. Just be careful to type exactly (or copy and paste) or it might say something like "error: alternative link /usr/bin/java is already managed by java". The only things that change between each line, is the "java" in the middle and the "/java" at the end of each line.
+After that, you need to run the following 3 commands. Dont worry if one or more throw an error/warning. They did, when i entered them, but it worked nontheless. Just be careful to type exact (or copy and paste) or it might say something like "error: alternative link /usr/bin/java is already managed by java". The only things that change between each line, is the "java" in the middle and the "/java" at the end of each line.
 
 ````
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0/bin/java" 1
@@ -30,10 +30,27 @@ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8
 sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0/bin/javaws" 1
 ````
 
+Now, you should be good to go. The final step is to switch to the Java-version of your choice with:
+
+`sudo update-alternatives --config java`
+
+It will open up a menu, looking like this: 
+````
+Selection Path Priority Status
+--------------------
+* 0 /usr/lib/jvm/java-12-openjdk-amd64/bin/java 1211 auto mode
+1 /usr/lib/jvm/java-12-openjdk-amd64/bin/java 1211 manual mode
+2 /usr/lib/jvm/jdk1.8.0/bin/java 1 manual mode
+
+Press enter to keep the current choice[*], or type selection number: 2
+````
+
+The star >* indicates the version you are currently at. You only need to choose the number for Java 8jdk1.8.0 which is . If you want to switch back, just use the same command and the number it had before.
+
 
 Sources:
-http://astah.net/download
-http://astah.net/student/thank-you
-https://www.java.com/en/download/linux_manual.jsp
-https://www.java.com/de/download/help/linux_install.xml (german)
-http://astah.net/qa/setup/linux
+http://astah.net/download 
+http://astah.net/student/thank-you 
+https://www.java.com/en/download/linux_manual.jsp 
+https://www.java.com/de/download/help/linux_install.xml (german) 
+http://astah.net/qa/setup/linux 
