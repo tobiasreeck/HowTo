@@ -29,3 +29,11 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0/bin/javac" 1
 sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0/bin/javaws" 1
 ````
+
+
+Sources:
+http://astah.net/download
+http://astah.net/student/thank-you
+https://www.java.com/en/download/linux_manual.jsp
+https://www.java.com/de/download/help/linux_install.xml (german)
+http://astah.net/qa/setup/linux
