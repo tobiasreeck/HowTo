@@ -1,7 +1,9 @@
 ## "This Java Environment is not supported in Astah."
 #### How to install Astah and switch your java-version if necessary.
 
-If you havent downloaded Astah yet, you can do it [here](http://astah.net/download). I downloaded Astah UML, but it might work for the other version as well. If you're a student, press the "Students - Get Free License" button, to get a free license. Otherwise you will only get the normal version, which requires license-key after 30 days of trial. After entering your stundent-information, you can download a license-file and Astah itself. If you are running on Ubunut like me, you're gonna need the Linux<sup>Deb</sup> download.
+This worked for Ubuntu 19.04. on my machine.
+
+If you havent downloaded Astah yet, you can do it [here](http://astah.net/download). I downloaded Astah UML, but it might work for the other version as well. If you're a student, press the "Students - Get Free License" button, to get a free license. Otherwise you will only get the normal version, which requires license-key after 30 days of trial. After entering your stundent-information, you can download a license-file and Astah itself. If you are running on Ubuntu like me, you're gonna need the Linux<sup>Deb</sup> download.
 
 Once you finished downloading and installing Astah and you try launching it. If it openes without any problems, then you already have the right Java-Version. Then you only need to click "Help" in the options-menu and then "Set License Key", choosing the license-file you downloaded earlier.
 
@@ -49,7 +51,7 @@ Press enter to keep the current choice[*], or type selection number: 2
 
 The &ast; indicates the version you are currently at. You only need to choose the number for Java 8 (jdk1.8.0) which in this case is number 2. If you want to switch back, just use the same command and the number it had before.
 
-I personally set up an alias called "javaversion" in my ".bash_aliases" file, so i dont have to remember the command above. That way, i simply have to enter "javaversion" in my terminal, to get in the menu, where i can switch the version. If you dont know, how to create oder edit aliases, unfortunately you're gonna have to look that up yourself.
+I personally set up an alias called "javaversion" in my ".bashrc" file, so i dont have to remember the command above. That way, i simply have to enter "javaversion" in my terminal, to get in the menu, where i can switch the version. If you dont know, how to create oder edit aliases, unfortunately you're gonna have to look that up yourself.
 
 And that's it. I hope it helped one or the other person, beeing able to use Astah.
 
