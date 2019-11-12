@@ -7,7 +7,9 @@ Once you finished downloading and installing Astah and you try launching it. If 
 
 #### Downloading and Switching your java-version
 If you dont have the correct Java-version, you might get a message like this:
-![text](/home/tobi/Privat/GitHub/HowTo/figs/Astah_Java_Version.png)
+
+![](figs/Astah_Java_Version.png)
+
 In that case, you're gonna need to install an older version of Java. I decided to install Java 8, which is the version, Astah seems to require. You can download it [here](https://www.java.com/en/download/linux_manual.jsp). I chose the Linux x64 Option for my Ubunut 19.04. machine. Once downloaded, i followed [these](http://astah.net/qa/setup/linux) instructions, which are:
 
 First you have to decompress the downloaded file. Move to the file location within your terminal and enter:
@@ -45,8 +47,9 @@ Selection Path Priority Status
 Press enter to keep the current choice[*], or type selection number: 2
 ````
 
-The star >* indicates the version you are currently at. You only need to choose the number for Java 8jdk1.8.0 which is . If you want to switch back, just use the same command and the number it had before.
+The &ast; indicates the version you are currently at. You only need to choose the number for Java 8 (jdk1.8.0) which in this case is number 2. If you want to switch back, just use the same command and the number it had before.
 
+I personally set up an alias called "javaversion" in my ".bash
 
 Sources:
 - [http://astah.net/download](http://astah.net/download)
